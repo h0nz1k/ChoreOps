@@ -1,0 +1,167 @@
+{
+  "_comment_assignee_section": "══════════════════════════════════════════════════════════════════",
+  "_comment_assignee_desc": "OZNÁMENÍ PRO ŘEŠITELE: hravý, povzbudivý tón, oslovení ve 2. osobě, s emoji. BEZ předpony „ChoreOps:“.",
+  "_comment_assignee_footer": "══════════════════════════════════════════════════════════════════",
+  "chore_approved_assignee": {
+    "title": "🎉 Úkol schválen!",
+    "message": "{chore_name} je schválený! Získáváš {points_label}: +{points}"
+  },
+  "chore_disapproved_assignee": {
+    "title": "↩️ Úkol vrácen",
+    "message": "{chore_name} ještě potřebuje trochu dodělat."
+  },
+  "chore_overdue_assignee": {
+    "title": "⏰ Úkol po termínu",
+    "message": "{chore_name} je po termínu! Splň ho hned a získej {points_label}: +{points}"
+  },
+  "chore_overdue_steal_available": {
+    "title": "⚡ Pozor, úkol!",
+    "message": "{chore_name} je po termínu a můžeš ho převzít! Splň ho jako první a získej {points_label}: +{points}"
+  },
+  "chore_missed_assignee": {
+    "title": "😔 Úkol propadl",
+    "message": "{chore_name} propadl, aniž by byl splněn."
+  },
+  "chore_due_reminder_assignee": {
+    "title": "⏰ Připomínka úkolu",
+    "message": "{chore_name} má termín za {minutes} min! Za splnění {points_label}: +{points}"
+  },
+  "chore_due_window_assignee": {
+    "title": "🎯 Úkol je na řadě",
+    "message": "{chore_name} je teď k splnění! Splň ho do {hours} h a získej {points_label}: +{points}"
+  },
+  "chore_approved_assignee_no_points": {
+    "message": "{chore_name} je schválený!"
+  },
+  "chore_overdue_assignee_no_points": {
+    "message": "{chore_name} je po termínu! Splň ho hned"
+  },
+  "chore_overdue_steal_available_no_points": {
+    "message": "{chore_name} je po termínu a můžeš ho převzít! Splň ho jako první"
+  },
+  "chore_standby_needed_no_points": {
+    "message": "Úkol {chore_name} ({primary_name}) je po termínu! Označ ho jako hotový"
+  },
+  "chore_due_reminder_assignee_no_points": {
+    "message": "{chore_name} má termín za {minutes} min!"
+  },
+  "chore_due_window_assignee_no_points": {
+    "message": "{chore_name} je teď k splnění! Splň ho do {hours} h"
+  },
+  "reward_approved_assignee": {
+    "title": "🎉 Odměna schválena!",
+    "message": "{reward_name} je schválená!"
+  },
+  "reward_disapproved_assignee": {
+    "title": "💭 Žádost o odměnu vrácena",
+    "message": "{reward_name} tentokrát schválena nebyla."
+  },
+  "badge_earned_assignee": {
+    "title": "🥇 Nový odznak!",
+    "message": "Získáváš odznak {badge_name}!"
+  },
+  "achievement_earned_assignee": {
+    "title": "🏆 Úspěch získán!",
+    "message": "Získáváš úspěch {achievement_name}! Jen tak dál"
+  },
+  "challenge_completed_assignee": {
+    "title": "🏁 Výzva splněna!",
+    "message": "Splnil(a) jsi výzvu {challenge_name}! Jen tak dál"
+  },
+  "penalty_applied_assignee": {
+    "title": "⚠️ Srážka",
+    "message": "{penalty_name}: odečteno {points} ({points_label}). Pojďme se do toho zase pustit!"
+  },
+  "bonus_applied_assignee": {
+    "title": "⭐ Bonus!",
+    "message": "{bonus_name}: bonus {points_label}: +{points}! Skvělá práce"
+  },
+  "multiplier_changed_assignee": {
+    "title": "⚖️ Násobitel změněn",
+    "message": "Tvůj násobitel ({points_label}) se změnil z {old_multiplier}x na {new_multiplier}x"
+  },
+  "_comment_approver_section": "══════════════════════════════════════════════════════════════════",
+  "_comment_approver_desc": "OZNÁMENÍ PRO SCHVALOVATELE: informativní, ve 3. osobě, s jasnou akcí. Formát: „{assignee_name}: Akce“. BEZ předpony „ChoreOps:“.",
+  "_comment_approver_footer": "══════════════════════════════════════════════════════════════════",
+  "chore_claimed_approver": {
+    "title": "✋ {assignee_name}: Úkol hotový",
+    "message": "{assignee_name} označil(a) {chore_name} jako hotové"
+  },
+  "chore_reminder_approver": {
+    "title": "⏰ {assignee_name}: Čeká na schválení",
+    "message": "Připomínka: {chore_name} od {assignee_name} čeká na vaši kontrolu"
+  },
+  "chore_overdue_approver": {
+    "title": "⚠️ {assignee_name}: Úkol po termínu",
+    "message": "Úkol {chore_name} ({assignee_name}) je po termínu (termín: {due_date})"
+  },
+  "pending_chores_approver": {
+    "title": "📋 {assignee_name}: čeká {count}",
+    "message": "Úkolů čekajících na kontrolu: {count}. Poslední: {latest_chore} (+{points} {points_label})"
+  },
+  "pending_chores_approver_no_points": {
+    "message": "Úkolů čekajících na kontrolu: {count}. Poslední: {latest_chore}"
+  },
+  "reward_claimed_approver": {
+    "title": "🎁 {assignee_name}: Žádost o odměnu",
+    "message": "{assignee_name} žádá o {reward_name} za {points_label}: {points}"
+  },
+  "reward_reminder_approver": {
+    "title": "⏰ {assignee_name}: Odměna čeká",
+    "message": "Připomínka: žádost o {reward_name} od {assignee_name} čeká na vaše schválení"
+  },
+  "badge_earned_approver": {
+    "title": "🥇 {assignee_name}: Nový odznak",
+    "message": "{assignee_name} získal(a) odznak {badge_name}!"
+  },
+  "achievement_earned_approver": {
+    "title": "🏆 {assignee_name}: Úspěch",
+    "message": "{assignee_name} získal(a) úspěch {achievement_name}"
+  },
+  "challenge_completed_approver": {
+    "title": "🏁 {assignee_name}: Výzva splněna",
+    "message": "{assignee_name} splnil(a) výzvu {challenge_name}"
+  },
+  "multiplier_changed_approver": {
+    "title": "⚖️ {assignee_name}: Násobitel změněn",
+    "message": "Násobitel ({points_label}) uživatele {assignee_name} se změnil z {old_multiplier}x na {new_multiplier}x"
+  },
+  "_comment_system_section": "══════════════════════════════════════════════════════════════════",
+  "_comment_system_desc": "SYSTÉMOVÁ OZNÁMENÍ / OZNÁMENÍ PRO SPRÁVCE: operace se správou dat",
+  "_comment_system_footer": "══════════════════════════════════════════════════════════════════",
+  "data_reset": {
+    "title": "🔄 ChoreOps: Reset dat",
+    "message": "Systémová data byla resetována"
+  },
+  "data_reset_global": {
+    "title": "🔄 ChoreOps: Úplný reset",
+    "message": "Všechna systémová data byla vrácena do výchozího stavu"
+  },
+  "data_reset_assignee": {
+    "title": "🔄 ChoreOps: Reset řešitele",
+    "message": "Reset dat pro {assignee_name}"
+  },
+  "data_reset_item_type": {
+    "title": "🔄 ChoreOps: Reset {item_type}",
+    "message": "Všechna data typu {item_type} byla resetována"
+  },
+  "data_reset_item": {
+    "title": "🔄 ChoreOps: Reset položky",
+    "message": "{item_type} „{item_name}“ byl(a) resetován(a)"
+  },
+  "_comment_actions_section": "══════════════════════════════════════════════════════════════════",
+  "_comment_actions_desc": "AKČNÍ TLAČÍTKA OZNÁMENÍ: jemnější, povzbudivější jazyk",
+  "_comment_actions_footer": "══════════════════════════════════════════════════════════════════",
+  "actions": {
+    "approve": "✅ Schválit",
+    "claim": "✋ Hotovo!",
+    "complete": "✅ Splněno",
+    "disapprove": "↩️ Zamítnout",
+    "remind_30": "⏰ Připomenout za 30 min",
+    "skip": "⏭️ Přeskočit"
+  },
+  "chore_standby_needed": {
+    "title": "🫲 Je potřeba záloha",
+    "message": "Úkol {chore_name} ({primary_name}) je po termínu! Označ ho jako hotový a získej {points_label}: +{points}"
+  }
+}
